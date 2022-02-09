@@ -10,6 +10,7 @@ namespace trial
     {
         static void Main(string[] args)
         {
+            // console
             Console.WriteLine("Hi");
         }
     }
