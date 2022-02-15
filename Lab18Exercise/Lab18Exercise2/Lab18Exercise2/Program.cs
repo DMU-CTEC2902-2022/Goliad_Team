@@ -13,6 +13,7 @@ namespace Lab18Exercise2
             Console.WriteLine("CTEC2902");
             Console.WriteLine("New message");
             Console.ReadLine();
+            Console.WriteLine("Pixar supremacy");
         }
     }
 }
