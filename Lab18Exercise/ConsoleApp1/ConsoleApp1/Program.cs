@@ -12,6 +12,8 @@ namespace ConsoleApp1
         {
             Console.WriteLine("CTECT2902");
             Console.ReadLine();
+            Console.WriteLine("New Message");
+            Console.ReadLine();
         }
     }
 }
