@@ -11,6 +11,7 @@ namespace Lab18Exercise2
         static void Main(string[] args)
         {
             Console.WriteLine("CTEC2902");
+            Console.WriteLine("New message");
             Console.ReadLine();
         }
     }
