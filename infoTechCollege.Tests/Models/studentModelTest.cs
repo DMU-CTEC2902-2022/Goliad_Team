@@ -26,9 +26,9 @@ namespace infoTechCollege.Tests.Models
             //declaring test data
             string testdata = "Paul";
             //assigning data to the property
-            student.firstname = testdata;
+            student.Firstname = testdata;
             //test to see if it works
-            Assert.AreEqual(testdata, student.firstname);
+            Assert.AreEqual(testdata, student.Firstname);
         }
 
         [TestMethod]
@@ -39,9 +39,9 @@ namespace infoTechCollege.Tests.Models
             //declaring test data
             string testdata = "Banner";
             //assigning data to the property
-            student.lastname = testdata;
+            student.Lastname = testdata;
             //test to see if it works
-            Assert.AreEqual(testdata, student.lastname);
+            Assert.AreEqual(testdata, student.Lastname);
         }
 
         [TestMethod]
@@ -52,9 +52,9 @@ namespace infoTechCollege.Tests.Models
             //declaring test data
             string testdata = "paul@gmail.com";
             //assigning data to the property
-            student.email = testdata;
+            student.Email = testdata;
             //test to see if it works
-            Assert.AreEqual(testdata, student.email);
+            Assert.AreEqual(testdata, student.Email);
         }
 
         [TestMethod]
@@ -65,9 +65,9 @@ namespace infoTechCollege.Tests.Models
             //declaring test data
             string testdata = "Leicester";
             //assigning data to the property
-            student.town = testdata;
+            student.Town = testdata;
             //test to see if it works
-            Assert.AreEqual(testdata, student.town);
+            Assert.AreEqual(testdata, student.Town);
         }
 
         [TestMethod]
@@ -78,9 +78,9 @@ namespace infoTechCollege.Tests.Models
             //declaring test data
             string testdata = "12/02/1998";
             //assigning data to the property
-            student.dateOfBirth = testdata;
+            student.DateOfBirth = testdata;
             //test to see if it works
-            Assert.AreEqual(testdata, student.dateOfBirth);
+            Assert.AreEqual(testdata, student.DateOfBirth);
         }
 
         [TestMethod]
@@ -91,9 +91,9 @@ namespace infoTechCollege.Tests.Models
             //declaring test data
             string testdata = "123456789014";
             //assigning data to the property
-            student.phonemumber = testdata;
+            student.Phonemumber = testdata;
             //test to see if it works
-            Assert.AreEqual(testdata, student.phonemumber);
+            Assert.AreEqual(testdata, student.Phonemumber);
         }
     }
 }
