@@ -18,5 +18,10 @@ namespace infoTechCollege.Controllers
         {
             return View();
         }
+
+        public ActionResult CyberSecurity()
+        {
+            return View();
+        }
     }
 }
