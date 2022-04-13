@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "infoTechCollege", "infoTechCollege.vbproj", "{C2FC714E-9D14-4B9D-B0EB-400D9F8CE576}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "infoTechCollege.Tests", "..\infoTechCollege.Tests\infoTechCollege.Tests.vbproj", "{8BD4EF5D-DA15-40F6-8CDA-8EF3B5ED5748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2FC714E-9D14-4B9D-B0EB-400D9F8CE576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FC714E-9D14-4B9D-B0EB-400D9F8CE576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FC714E-9D14-4B9D-B0EB-400D9F8CE576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC714E-9D14-4B9D-B0EB-400D9F8CE576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD4EF5D-DA15-40F6-8CDA-8EF3B5ED5748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD4EF5D-DA15-40F6-8CDA-8EF3B5ED5748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD4EF5D-DA15-40F6-8CDA-8EF3B5ED5748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD4EF5D-DA15-40F6-8CDA-8EF3B5ED5748}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B45D20B2-2B6F-4F55-A120-93484735AF50}
+	EndGlobalSection
+EndGlobal
