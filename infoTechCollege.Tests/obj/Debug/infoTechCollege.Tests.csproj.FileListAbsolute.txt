@@ -1,0 +1,104 @@
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\infoTechCollege.Tests.dll.config
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\infoTechCollege.Tests.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\infoTechCollege.Tests.pdb
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\infoTechCollege.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Newtonsoft.Json.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Helpers.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Mvc.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Razor.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Optimization.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Owin.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\EntityFramework.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\infoTechCollege.pdb
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\infoTechCollege.dll.config
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Newtonsoft.Json.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Helpers.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Mvc.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Razor.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\System.Web.Optimization.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\EntityFramework.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.AssemblyReference.cache
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.CoreCompileInputs.cache
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.CopyComplete
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.dll
+H:\Desktop\InfoTechProject\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.pdb
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\infoTechCollege.Tests.dll.config
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\infoTechCollege.Tests.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\infoTechCollege.Tests.pdb
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\infoTechCollege.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Newtonsoft.Json.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Helpers.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Mvc.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Razor.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Optimization.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Owin.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\EntityFramework.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\infoTechCollege.pdb
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\infoTechCollege.dll.config
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Newtonsoft.Json.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Helpers.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Mvc.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Razor.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\System.Web.Optimization.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\EntityFramework.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.AssemblyReference.cache
+H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.CoreCompileInputs.cache
+H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.CopyComplete
+H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.pdb

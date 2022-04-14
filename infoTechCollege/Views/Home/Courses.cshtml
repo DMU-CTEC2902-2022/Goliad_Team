@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Courses";
+}
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+<body>
+    <h2>@ViewBag.Title.</h2>
+    <h3>@ViewBag.Message</h3>
+
+    <p>Description Here</p>
+    <table>
+        <tr>
+            <th>Code</th>
+            <th>Title</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Software Engineering</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Cyber Security</td>
+        </tr>
+    </table>
+</body>
