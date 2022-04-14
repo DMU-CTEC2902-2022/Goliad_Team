@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace infoTechCollege.Controllers
 {
-    public class ModulesController : Controller
+    public class ModuleController : Controller
     {
         // GET: Modules
         public ActionResult ComputerScience()
