@@ -241,7 +241,7 @@
     <Content Include="Views\Modules\ComputerScience.cshtml" />
     <Content Include="Views\Modules\SoftwareEngineering.cshtml" />
     <Content Include="Views\Modules\CyberSecurity.cshtml" />
-    <Content Include="Views\Account\RegisterComputerScience.cshtml" />
+    <Content Include="Views\Modules\RegisterComputerScience.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

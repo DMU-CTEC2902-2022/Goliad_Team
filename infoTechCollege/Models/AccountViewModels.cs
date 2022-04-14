@@ -66,7 +66,7 @@ namespace infoTechCollege.Models
     {
         [Required]
         [EmailAddress]
-        [Display(Name = "Email")]
+        [Display(Name = "First Name")]
         public string Email { get; set; }
 
         [Required]

@@ -23,5 +23,10 @@ namespace infoTechCollege.Controllers
         {
             return View();
         }
+
+        public ActionResult RegisterComputerScience()
+        {
+            return View();
+        }
     }
 }
