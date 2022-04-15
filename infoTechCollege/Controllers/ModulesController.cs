@@ -18,7 +18,7 @@ namespace infoTechCollege.Controllers
         // GET: Modules
         public ActionResult Index()
         {
-            return View(db.Modules.ToList());
+            return View();
         }
 
         // GET: Modules/Details/5
