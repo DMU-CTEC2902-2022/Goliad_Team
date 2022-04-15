@@ -26,41 +26,126 @@
         <tr>
             <td style="width: 180.234px;">COS1903</td>
             <td style="width: 493.969px;">Scala Programming</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Scala is a strong statically typed general-purpose programming language which
+                supports both object-oriented programming and functional programming.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS1920</td>
             <td style="width: 493.969px;">Database Management</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Database Management allows a person to organize, store, and retrieve data from a computer. Database Management
+                can also describe the data storage, operations, and security practices of a database
+                administrator (DBA) throughout the life cycle of the data.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS2905</td>
             <td style="width: 493.969px;">Object Orientated Programming (Java)</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                The course focuses on the understanding and practical mastery of object-oriented concepts such as classes, objects,
+                data abstraction, methods, method overloading, inheritance and polymorphism.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS2910</td>
             <td style="width: 493.969px;">Database Management</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Database Management allows a person to organize, store, and retrieve data from a computer. Database Management
+                can also describe the data storage, operations, and security practices of a database
+                administrator (DBA) throughout the life cycle of the data.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS3911</td>
             <td style="width: 493.969px;">Mobile Application</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">This course introduces students to programming technologies, design and development related to mobile applications. </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">IMAT3611</td>
             <td style="width: 493.969px;">Computer Ethics and Privacy</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Privacy in computer ethics refers to the ethical dilemmas that computer users face in some situations
+                that may lead to the violation of another person's privacy through the use of computers.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS3451</td>
             <td style="width: 493.969px;">Development Project</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                This is a skill based course that is primarily designed to provide students with practical skills they are likely to use in development contexts.
+                The course introduces students to the planning and analysis of small scale development projects.
+            </td>
         </tr>
     </tbody>
 </table>
 
 <h3>Module Content</h3>
+One three hour examination (50%)
+One assignment of 1500 words (50%)
 
 <h3>Staff</h3>
+Module Leader - Professor Sam Smith
+Email: samsmith@infotechcol.ac.uk
+Contact: 0161 207 8923 / Ext 543
+
+@model infoTechCollege.Models.clsStudent
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Enroll on Course</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(s => s.Firstname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(s => s.Firstname, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Lastname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(s => s.Lastname, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Email, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Town, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Town, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.DateOfBirth, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.DateOfBirth, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Phonemumber, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Phonemumber, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

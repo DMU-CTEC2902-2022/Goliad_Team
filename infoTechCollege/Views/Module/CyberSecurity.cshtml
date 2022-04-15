@@ -26,41 +26,127 @@
         <tr>
             <td style="width: 180.234px;">SE3901</td>
             <td style="width: 493.969px;">C Programming</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                This course is a great introduction to both fundamental programming concepts and the C programming language.
+                It will start with those fundamental programming concepts before digging deeper into the more advanced C topics, like pointers and structures.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3902</td>
             <td style="width: 493.969px;">Computer Law and Cyber Security Management</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                You’ll learn to identify security breaches and implement solutions using the latest industry tools and techniques. Through hands-on experience
+                of analysing secure networks and websites, you’ll develop skills around penetration testing, malware identification and ethical hacking.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3903</td>
             <td style="width: 493.969px;">Linux Security</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                his course is a comprehensive look at the security challenges that can affect almost every system,
+                especially with the seamless connectivity we seek from the Internet.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3904</td>
             <td style="width: 493.969px;">Cyber Threat Intelligence and Incident Response</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                adversary motives, intents, capabilities, enabling environments and operations. CTI can be focused on
+                a single cybersecurity event or a series of events or trends, and it provides advisory and reactional information to the defender.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3905</td>
             <td style="width: 493.969px;">Malware Analysis</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Malware analysis is the process of understanding the behavior and purpose of a suspicious file or URL.
+                The output of the analysis aids in the detection and mitigation of the potential threat.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">IMAT3611</td>
             <td style="width: 493.969px;">Computer Ethics and Privacy</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Privacy in computer ethics refers to the ethical dilemmas that computer users face in some situations
+                that may lead to the violation of another person's privacy through the use of computers.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS3451</td>
             <td style="width: 493.969px;">Development Project</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                This is a skill based course that is primarily designed to provide students with practical skills they are likely to use in development contexts.
+                The course introduces students to the planning and analysis of small scale development projects.
+            </td>
         </tr>
     </tbody>
 </table>
 
 <h3>Module Content</h3>
+One three hour examination (50%)
+One assignment of 1500 words (50%)
 
 <h3>Staff</h3>
+Module Leader - Professor Philip James
+Email: philipjames@infotechcol.ac.uk
+Contact: 0161 207 8923 / Ext 673
+
+@model infoTechCollege.Models.clsStudent
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Enroll on Course</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(s => s.Firstname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(s => s.Firstname, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Lastname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(s => s.Lastname, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Email, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Town, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Town, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.DateOfBirth, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.DateOfBirth, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Phonemumber, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Phonemumber, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

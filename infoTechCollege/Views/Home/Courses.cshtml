@@ -33,17 +33,17 @@
         <tr>
             <td>1</td>
             <td>Computer Science</td>
-            <td><a class="button" href="~/Views/Module/ComputerScience.cshtml">More</a></td>
+            <td>@Html.ActionLink("More", "ComputerScience", "Module", null, new { @class = "btn btn-default" })</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Software Engineering</td>
-            <td><a class="button" href="~/Views/Module/SoftwareEngineering.cshtml">More</a></td>
+            <td>@Html.ActionLink("More", "SoftwareEngineering", "Module", null, new { @class = "btn btn-default" })</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Cyber Security</td>
-            <td><a class="button" href="~/Views/Module/CyberSecurity.cshtml">More</a></td>
+            <td>@Html.ActionLink("More", "CyberSecurity", "Module", null, new { @class = "btn btn-default" })</td>
         </tr>
     </table>
 </body>
