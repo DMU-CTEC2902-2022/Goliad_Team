@@ -25,44 +25,127 @@
         <tr>
             <td style="width: 180.234px;">SE3906</td>
             <td style="width: 493.969px;">Interaction Design</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Interaction Design (IxD) is the design of interactive products and services in which a designer's
+                focus goes beyond the item in development to include the way users will interact with it.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3410</td>
             <td style="width: 493.969px;">Web Application Penetration Testing</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Perform penetration tests on computer systems, networks and applications. Create new testing methods to identify
+                vulnerabilities. Perform physical security assessments of systems, servers and other network devices to identify areas that require physical protection.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3406</td>
             <td style="width: 493.969px;">Fuzzy Logic & Knowledge Based Systems</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                A computer program which, with its associated data, embodies organised knowledge concerning some specific area of human activity. Such a system is expected to perform
+                competently, skilfully and in a cost-effective manner; it may be thought of as a computer program which mimics the performance of a human expert.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3613</td>
             <td style="width: 493.969px;">Data Mining</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Data mining is the process of finding anomalies, patterns and correlations within large data sets to predict outcomes. Using a broad range of techniques,
+                you can use this information to increase revenues, cut costs, improve customer relationships, reduce risks and more.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">SE3614</td>
             <td style="width: 493.969px;">Big Data & Business Models</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">Learn about big data, data analytics, and how you can use your company's data across every department to drive results.</td>
         </tr>
         <tr>
             <td style="width: 180.234px;">IMAT3611</td>
             <td style="width: 493.969px;">Computer Ethics and Privacy</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                Privacy in computer ethics refers to the ethical dilemmas that computer users face in some situations
+                that may lead to the violation of another person's privacy through the use of computers.
+            </td>
         </tr>
         <tr>
             <td style="width: 180.234px;">COS3451</td>
             <td style="width: 493.969px;">Development Project</td>
-            <td style="width: 153.797px;">&nbsp;</td>
+            <td style="width: 153.797px;">
+                This is a skill based course that is primarily designed to provide students with practical skills they are likely to use in development contexts.
+                The course introduces students to the planning and analysis of small scale development projects.
+            </td>
         </tr>
     </tbody>
 </table>
 
 <h3>Module Content</h3>
+One three hour examination (50%)
+One assignment of 1500 words (50%)
 
 <h3>Staff</h3>
+Module Leader - Professor Lisa Knox
+Email: lisaknox@infotechcol.ac.uk
+Contact: 0161 207 8923 / Ext 234
+
+@model infoTechCollege.Models.clsStudent
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Enroll on Course</h4>
+    <hr />
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+    <div class="form-group">
+        @Html.LabelFor(s => s.Firstname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(s => s.Firstname, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Lastname, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(s => s.Lastname, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Email, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Town, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Town, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.DateOfBirth, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.DateOfBirth, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Phonemumber, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(s => s.Phonemumber, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="Register" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
 
 
 
