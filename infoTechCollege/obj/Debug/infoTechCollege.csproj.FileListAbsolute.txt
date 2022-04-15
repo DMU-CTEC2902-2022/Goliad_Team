@@ -213,4 +213,3 @@ H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.cspr
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.csproj.CopyComplete
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.dll
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.pdb
-H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.csproj.AssemblyReference.cache

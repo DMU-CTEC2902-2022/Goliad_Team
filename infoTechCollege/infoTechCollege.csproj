@@ -171,7 +171,7 @@
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\ModulesController.cs" />
+    <Compile Include="Controllers\ModuleController.cs" />
     <Compile Include="Data\CourseContext.cs" />
     <Compile Include="Data\ModuleContext.cs" />
     <Compile Include="Global.asax.cs">
@@ -245,9 +245,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Register\Register.cshtml" />
     <Content Include="Views\Home\Courses.cshtml" />
-    <Content Include="Views\Modules\Computer Science.cshtml" />
-    <Content Include="Views\Modules\Software Engineering.cshtml" />
-    <Content Include="Views\Modules\Cyber Security.cshtml" />
+    <Content Include="Views\Module\ComputerScience.cshtml" />
+    <Content Include="Views\Module\SoftwareEngineering.cshtml" />
+    <Content Include="Views\Module\CyberSecurity.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
