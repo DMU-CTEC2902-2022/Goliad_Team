@@ -245,7 +245,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Register\Register.cshtml" />
     <Content Include="Views\Home\Courses.cshtml" />
-    <Content Include="Views\Modules\Index.cshtml" />
+    <Content Include="Views\Modules\Computer Science.cshtml" />
+    <Content Include="Views\Modules\Software Engineering.cshtml" />
+    <Content Include="Views\Modules\Cyber Security.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
