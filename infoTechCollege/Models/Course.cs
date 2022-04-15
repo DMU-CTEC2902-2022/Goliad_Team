@@ -7,7 +7,8 @@ namespace infoTechCollege.Models
 {
     public class Course
     { 
-        public int Code { get; set; }
-        public string Title { get; set; }
+        public virtual int CourseId { get; set; }
+        public virtual int ModuleId { get; set; }
+        public virtual string Title { get; set; }
     }
 }
