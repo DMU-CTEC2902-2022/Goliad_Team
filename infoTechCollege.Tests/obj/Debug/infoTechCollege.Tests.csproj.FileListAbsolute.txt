@@ -102,3 +102,8 @@ H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechColleg
 H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.csproj.CopyComplete
 H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.dll
 H:\Documents\Advanced Programming\infoTechCollege.Tests\obj\Debug\infoTechCollege.Tests.pdb
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\WebGrease.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Antlr3.Runtime.dll
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+H:\Documents\Advanced Programming\infoTechCollege.Tests\bin\Debug\Antlr3.Runtime.pdb

@@ -209,8 +209,8 @@ H:\Documents\Advanced Programming\infoTechCollege\bin\Microsoft.Owin.Security.Tw
 H:\Documents\Advanced Programming\infoTechCollege\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 H:\Documents\Advanced Programming\infoTechCollege\bin\Microsoft.Owin.Security.OAuth.xml
 H:\Documents\Advanced Programming\infoTechCollege\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.csproj.AssemblyReference.cache
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.csproj.CoreCompileInputs.cache
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.csproj.CopyComplete
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.dll
 H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.pdb
+H:\Documents\Advanced Programming\infoTechCollege\obj\Debug\infoTechCollege.csproj.AssemblyReference.cache
